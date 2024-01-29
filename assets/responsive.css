@@ -1,0 +1,183 @@
+
+
+/* @media (max-width: 1280px) MAC BOOK  AIR : 1280 
+   @media (max-width: 768px) IPAD MINI 768 x 1024
+   @media (max-width: 884px) GALAXY FOLD 2
+   @media (max-width: 414px) IPHONE 6/7/8 PLUS
+   @media (max-width: 375px) Iphone 6/7/8
+   @media (max-width: 320px) IPHONE 5 */
+
+
+/*---------- @media (max-width: 1280px) MAC BOOK  AIR------*/
+
+@media (max-width: 1280px){
+ @font-face{
+    font-family: 'morp';
+    src: url('./font/scrat.otf');       
+ }
+   
+ section{
+   margin-top: 0px;
+ }
+
+ #game{
+  width: 30%;
+ }
+
+ .case{
+   height: 100px;
+   font-size:80px ;
+ }
+}
+
+
+/*-------------@media (max-width: 1024px) Ipad -------*/
+
+@media (max-width: 1024px){
+
+  .fdj{
+    width: 15%;
+  }
+
+ main{
+    padding: 10px;
+ }
+
+ .btn{
+   padding: 3px;
+ }
+
+ #game{
+   width: 45%;
+ }
+
+ #scoresContainer{
+   height: 95px;
+   padding: 0;
+ }
+}
+
+
+/*---------- @media (max-width: 884px) GALAXY FOLD 2------*/
+
+@media (max-width: 884px){
+  main{
+    padding: 20px;
+  }
+
+  .btn{
+    padding: 7px;
+  }
+
+  #game{
+    width: 55%;
+  }
+
+  .case{
+    height: 120px;
+    font-size:90px ;
+  }
+}
+
+
+/*-----------------------@media (max-width: 768px) Ipad Mini ---------------------*/
+
+@media(max-width: 768px){
+  .fdj{
+    width: 22%;
+  }
+  
+  header h1 {
+    font-size: 6.5vh; 
+  }
+
+  p{
+    font-size: 3vh;
+ }
+
+ .btn{
+    font-size: 3vh;
+  }
+}
+
+
+/*-----------------------@media(max-width: 414px) Iphone 6/7/8 plus --------------------------*/
+
+@media(max-width: 414px){
+
+  header{
+    height: 12%;
+  }
+
+  .fdj{
+    width: 23%;
+  }
+
+  header h1 {
+    font-size: 4.5vh; 
+ }
+
+ .btn{
+  border: 2px solid orange;
+}
+
+ #game{
+   width: 75%;
+ }
+
+ .case{
+   border: 3px solid orange;
+   height: 100px;
+   font-size: 70px;
+ }
+
+ #scoresContainer{
+   height: 85px;
+  }
+}
+
+
+/*-----------------------@media (max-width: 375px) Iphone 6/7/8/ ----------------------------- */
+
+@media(max-width: 375px){
+
+  .case{
+    height: 80px;
+    font-size: 60px;
+  }
+}
+ 
+
+/*-----------------------@media(max-width: 320px) IPHONE 5 ----------------------------- */
+
+@media(max-width: 320px){
+
+  main{
+   padding: 10px;
+  }
+
+  .btn{
+    font-size: 3.5vh;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+ }
+
+ #game{
+   width: 90%;
+ }
+
+ .case{
+   height: 60px;
+   font-size:45px;
+  }
+
+  #scoresContainer{
+    height: 50px;
+  }
+  
+  .score{
+    font-size: 4vh;
+  }
+}

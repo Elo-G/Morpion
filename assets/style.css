@@ -1,0 +1,139 @@
+@font-face {
+	font-family: 'morp';
+	src: url('./font/scrat.otf'); 
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: morp;
+    text-align: center;
+    background-image:url("./images/backgroundMorpion.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    width: 100%;
+    height: 15%;
+    background-color: blue;
+    border-bottom: solid orange ;
+}
+
+#headerContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fdj{
+    display: flex;
+    width: 10%;
+    align-items: end;
+}
+
+.dessinMorp{
+    width:100% ; 
+}
+
+#txt_Container{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 7vh;
+    color: orange;
+    background-color: blue;
+    text-shadow:1px 1px 4px;
+}
+
+p{
+    margin: 0;
+    font-size: 3.5vh;
+    font-weight: bold;
+    color: orange;
+    }
+
+main{
+    background-image:url("./images/backgroundMorpion.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 79%;
+    padding: 20px;
+}
+
+section{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 7px;
+    border-radius:15px ;
+    border:5px solid orange;
+    background-color: white;
+    font-family: 'morp';
+    src: url('./font/scrat.otf');
+    font-size: 2.5vh;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px; 
+}
+
+#game{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr); /* Je fais 3 colonnes d'1fraction 
+                                            chacune je pourrais l'écrire 
+                                            aussi ainsi 
+                                        "grid-template-columns: 1fr 1fr 1fr"*/
+    width: 25%;
+    background-color: blue;
+    box-shadow: 1px 1px 2px;
+}
+
+.case{
+    border: 7px solid orange;
+    height: 120px;
+    font-size:90px ;
+    color: white;
+}
+
+#scoresContainer{
+    padding: 1vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    background-color:#0636f6cf ;
+}
+
+.score{
+font-size: 3.5vh;
+font-weight: bolder;
+color: orange;
+text-shadow: 5 5 1px black; 
+}
+
+
+
+
+
+
+
+
+
